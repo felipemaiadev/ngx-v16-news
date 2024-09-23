@@ -3,16 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DinamicListComponent } from './dinamic-list/dinamic-list.component';
+
+import { VisionModule } from './@vision/vision.module';
+import { MainModule } from './main/main.module';
+
+
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DinamicListComponent
+    AppComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MainModule,
+    VisionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
