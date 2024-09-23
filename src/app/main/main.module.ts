@@ -9,7 +9,6 @@ import { NavbarComponent } from './+template/navbar/navbar.component';
 import { SidebarComponent } from './+template/sidebar/sidebar.component';
 import { BaseComponent } from './+template/base/base.component';
 import { VisionModule } from '../@vision/vision.module';
-import { LoginComponent } from './login/login.component';
 
 
 const LAYOUT_REF = [
@@ -25,14 +24,12 @@ const LAYOUT_REF = [
     NavbarComponent,
     SidebarComponent,
     ComposedMenuComponent,
-    BaseComponent,
-    LoginComponent
+    BaseComponent
  ]
     ,
   imports: [
     CommonModule,
-    RouterModule,
-    VisionModule
+    RouterModule
   ],
   exports:
   [

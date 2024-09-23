@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { VisionModule } from './@vision/vision.module';
 import { MainModule } from './main/main.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -19,7 +20,8 @@ import { MainModule } from './main/main.module';
     BrowserModule,
     AppRoutingModule,
     MainModule,
-    VisionModule
+    VisionModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
