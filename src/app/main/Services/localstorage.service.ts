@@ -11,11 +11,14 @@ export class LocalStorageService{
 
     public getValue(key: string) : string | null
     {
-            return localStorage.getItem(key) 
+        console.log("Try GET values")    
+        return localStorage.getItem(key) 
+
     }
 
     public setValue(key: string, value: string)
     {
+           console.log("Try SET values")
             localStorage.setItem(key, value) 
     }
 

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ComposedMenuComponent {
 
+
+   constructor(){
+    console.log("Composed Menu Acesses");
+   }
 }

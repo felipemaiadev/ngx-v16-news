@@ -14,6 +14,7 @@ import { SynopticComponent } from './synoptic/synoptic.component';
     BrowserModule,
     RouterModule
   ],
+  exports:[],
   providers: [],
   bootstrap: []
 })

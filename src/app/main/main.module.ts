@@ -29,7 +29,8 @@ const LAYOUT_REF = [
     ,
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    VisionModule
   ],
   exports:
   [
