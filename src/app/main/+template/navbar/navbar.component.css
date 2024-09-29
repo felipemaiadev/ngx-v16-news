@@ -9,17 +9,64 @@
     justify-content: space-between ;
     padding: 8px;
     border-radius: 5px;
+    align-items: stretch;
+      
 }
 
 .l-side{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-basis: 2;
+    min-width:48.75rem;
+    max-width:68.25rem;
 }
 
 .l-side__logo{
     width: 8.25rem;
     height: 5.25rem;
     border-radius: 10px;
+}
+
+.l-side__messages {
+    padding: 8px;
+    margin: 0px 0px 0px 16px;
+    background-color: var(--light-blue);
+    opacity: 0.65;
+    color: var(--dark-black-2);
+    font: 900;
+}
+
+.r-side {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-end;
+    min-width:48.75rem;
+    max-width:37.25rem;
+}
+
+.r-side__login{
+    margin: 5px 10px 0px 20px ;
+}
+
+.r-side__login{
+        text-align: center;
+        border: solid 1px var(--light-blue);
+        border-radius: 5px;
+        text-align:center;
+        vertical-align: middle;
+}
+
+.r-side__login:hover{
+    opacity: 0.45;
+}
+
+mat-icon{
+    font-size: 2.75rem !important;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 12px;
 }
 
