@@ -1,0 +1,25 @@
+
+* {
+    color: var(--light-blue);
+}
+.main-nav {
+    background-color: var(--dark-gray-3);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.l-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.l-side__logo{
+    width: 8.25rem;
+    height: 5.25rem;
+    border-radius: 10px;
+}
+
