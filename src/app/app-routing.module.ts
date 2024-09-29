@@ -11,10 +11,11 @@ const routes: Routes = [
    { path:'', component:ComposedMenuComponent, canActivate:[AuthValidationGuard]},
    { path:'menu', component:ComposedMenuComponent, canActivate:[AuthValidationGuard]},
    { path:'login', component:LoginComponent, canActivate:[AuthValidationGuard]},
-   { path:'vison', 
-     loadChildren: () => import('./@vision/vision.module').then(m => m.VisionModule),
-      canActivateChild:[AuthValidationGuard]},
-   { path:'**', component:ComposedMenuComponent, canActivate:[AuthValidationGuard]},
+   { path:'vision', 
+       loadChildren: () => import('./@vision/vision.module').then(m => m.VisionModule),
+       canActivateChild:[AuthValidationGuard]
+    }
+  //  { path:'**', component:ComposedMenuComponent, canActivate:[AuthValidationGuard]},
 ];
 
 @NgModule({
