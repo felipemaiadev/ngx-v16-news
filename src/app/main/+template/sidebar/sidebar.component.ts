@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+
+ produtos = [ {nome: "Mochila", preco: 100.50 },
+              {nome: "Caderno", preco: 11.50 },
+              {nome: "Caneta", preco:  2.50 } ]
+
 }

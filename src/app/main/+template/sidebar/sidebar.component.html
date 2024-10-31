@@ -1,1 +1,6 @@
-<p>sidebar works!</p>
+<table style="border:solid 1px blue;">
+    <tr  style="border: solid 1px blue; color: blueviolet;" *ngFor="let produto of produtos">
+        <td style="color: aquamarine;">{{produto.nome}}</td>
+        <td>{{produto.preco}}</td>
+    </tr>
+</table>
