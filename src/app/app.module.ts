@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 import { VisionModule } from './@vision/vision.module';
 import { MainModule } from './main/main.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 
@@ -21,7 +25,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     MainModule,
     VisionModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

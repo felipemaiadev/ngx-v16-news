@@ -2,17 +2,20 @@
 
 
 :root {
-    --light-citron: var(#BEBA62);
-    --light-blue: var(#C2D3DD);
-    --light-gray-1: var(#7EA4B2);
-    --light-gray-2: var(#52717E);
-    --dark-gray-1: var(#366374);
-    --dark-gray-2: var(#2A4656);
-    --dark-gray-3: var(#152834);
-    --dark-golden: var(#987A0A);
-    --dark-black: var(#191F22);
-    --dark-black: var(#0C171D);
+    --light-citron: #BEBA62;
+    --light-blue: #C2D3DD;
+    --light-gray-1: #7EA4B2;
+    --light-gray-2: #52717E;
+    --dark-gray-1: #366374;
+    --dark-gray-2: #2A4656;
+    --dark-gray-3: #152834;
+    --dark-golden: #987A0A;
+    --dark-black-1: #191F22;
+    --dark-black-2: #0C171D;
 }
 
 
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
