@@ -157,10 +157,10 @@
     vite "5.4.6"
     watchpack "2.4.1"
 
-"@angular/cdk@^17.3.10", "@angular/cdk@17.3.10":
-  version "17.3.10"
-  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-17.3.10.tgz"
-  integrity sha512-b1qktT2c1TTTe5nTji/kFAVW92fULK0YhYAvJ+BjZTPKu2FniZNe8o4qqQ0pUuvtMu+ZQxp/QqFYoidIVCjScg==
+"@angular/cdk@^18.2.12", "@angular/cdk@17.3.10":
+  version "18.2.12"
+  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-18.2.12.tgz"
+  integrity sha512-FOklA6KatPtb0yO0doRhBI/UVY23A8ZhOSws5VuZTQl/6r/jXEXGV9n5JQj4rm8t/6IrReO55hdyw9XfHfZFjQ==
   dependencies:
     tslib "^2.3.0"
   optionalDependencies:
@@ -189,7 +189,7 @@
     symbol-observable "4.0.0"
     yargs "17.7.2"
 
-"@angular/common@^16.0.0", "@angular/common@^17.0.0 || ^18.0.0", "@angular/common@^18.2.11", "@angular/common@18.2.11":
+"@angular/common@^16.0.0", "@angular/common@^17.0.0 || ^18.0.0", "@angular/common@^18.0.0 || ^19.0.0", "@angular/common@^18.2.11", "@angular/common@18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/common/-/common-18.2.11.tgz"
   integrity sha512-bamJeISl2zUlvjPYebQWazUjhjXU9nrot42cQJng94SkvNENT9LTWfPYgc+Bd972Kg+31jG4H41rgFNs7zySmw==
@@ -217,7 +217,7 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^16.0.0", "@angular/core@^17.0.0 || ^18.0.0", "@angular/core@^18.2.11", "@angular/core@18.2.11":
+"@angular/core@^16.0.0", "@angular/core@^17.0.0 || ^18.0.0", "@angular/core@^18.0.0 || ^19.0.0", "@angular/core@^18.2.11", "@angular/core@18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/core/-/core-18.2.11.tgz"
   integrity sha512-/AGAFyZN8KR+kW5FUFCCBCj3qHyDDum7G0lJe5otrT9AqF6+g7PjF8yLha/6wPkJG7ri5xGLhini1sEivVeq/g==
