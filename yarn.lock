@@ -189,7 +189,7 @@
     symbol-observable "4.0.0"
     yargs "17.7.2"
 
-"@angular/common@^16.0.0", "@angular/common@^18.0.0 || ^19.0.0", "@angular/common@^18.2.11", "@angular/common@18.2.11":
+"@angular/common@^18.0.0", "@angular/common@^18.0.0 || ^19.0.0", "@angular/common@^18.2.11", "@angular/common@18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/common/-/common-18.2.11.tgz"
   integrity sha512-bamJeISl2zUlvjPYebQWazUjhjXU9nrot42cQJng94SkvNENT9LTWfPYgc+Bd972Kg+31jG4H41rgFNs7zySmw==
@@ -217,21 +217,21 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^16.0.0", "@angular/core@^18.0.0 || ^19.0.0", "@angular/core@^18.2.11", "@angular/core@18.2.11":
+"@angular/core@^18.0.0", "@angular/core@^18.0.0 || ^19.0.0", "@angular/core@^18.2.11", "@angular/core@18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/core/-/core-18.2.11.tgz"
   integrity sha512-/AGAFyZN8KR+kW5FUFCCBCj3qHyDDum7G0lJe5otrT9AqF6+g7PjF8yLha/6wPkJG7ri5xGLhini1sEivVeq/g==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/forms@^16.0.0", "@angular/forms@^18.0.0 || ^19.0.0", "@angular/forms@^18.2.11":
+"@angular/forms@^18.0.0", "@angular/forms@^18.0.0 || ^19.0.0", "@angular/forms@^18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/forms/-/forms-18.2.11.tgz"
   integrity sha512-QjxayOxDTqsTJGBzfWd3nms1LZIXj2f1+wIPxxUNXyNS5ZaM7hBWkz2BTFYeewlD/HdNj0alNVCYK3M8ElLWYw==
   dependencies:
     tslib "^2.3.0"
 
-"@angular/localize@^16.0.0", "@angular/localize@^18.0.0", "@angular/localize@^18.2.11":
+"@angular/localize@^18.0.0", "@angular/localize@^18.2.11":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@angular/localize/-/localize-18.2.11.tgz"
   integrity sha512-ZGemNURZmhZcZhc0i4SzAjyckkvf6Xv24U7DDJ/TpgHQWP9/pu5QExFa2OuGoJJcZRqUrzEmPrbu+4a/xggaQw==
@@ -1472,10 +1472,10 @@
   resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-win32-x64/-/msgpackr-extract-win32-x64-3.0.3.tgz"
   integrity sha512-x0fWaQtYp4E6sktbsdAqnehxDgEc/VwM7uLsRCYWaiGu0ykYdZPiS8zCWdnjHwyiumousxfBm4SO31eXqwEZhQ==
 
-"@ng-bootstrap/ng-bootstrap@^15.1.2":
-  version "15.1.2"
-  resolved "https://registry.npmjs.org/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-15.1.2.tgz"
-  integrity sha512-mM2yiGnt9o7KZLIFp8K1vjfmVfu7HR3d8dhH5SszfArbgn9DvvQ4P5D5TDGygzyBSzeyZe18p7I8rX8vgA6DKw==
+"@ng-bootstrap/ng-bootstrap@^17.0.1":
+  version "17.0.1"
+  resolved "https://registry.npmjs.org/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-17.0.1.tgz"
+  integrity sha512-utbm8OXIoqVVYGVzQkOS773ymbjc+UMkXv8lyi7hTqLhCQs0rZ0yA74peqVZRuOGXLHgcSTA7fnJhA80iQOblw==
   dependencies:
     tslib "^2.3.0"
 
