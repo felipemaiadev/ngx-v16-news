@@ -9,6 +9,7 @@ import { NavbarComponent } from './+template/navbar/navbar.component';
 import { SidebarComponent } from './+template/sidebar/sidebar.component';
 import { BaseComponent } from './+template/base/base.component';
 import { VisionModule } from '../@vision/vision.module';
+import { MatIconModule } from '@angular/material/icon';
 
 
 const LAYOUT_REF = [
@@ -30,7 +31,8 @@ const LAYOUT_REF = [
   imports: [
     CommonModule,
     RouterModule,
-    VisionModule
+    VisionModule,
+    MatIconModule
   ],
   exports:
   [
